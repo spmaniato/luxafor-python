@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LUXAFOR_DIR="/home/spyros/.luxafor-python"
+LUXAFOR_DIR="${HOME}/.luxafor-python"
 
 lux ()
 {
