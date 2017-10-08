@@ -25,6 +25,16 @@ Credit to gist by [dave-irvine](https://gist.github.com/dave-irvine/dbec2584e750
 - Windows 10
 - Ubuntu 15.10
 
+## Installation
+
+### Linux
+
+```bash
+git clone https://github.com/spmaniato/luxafor-python.git ~/.luxafor-python
+echo "source ~/.luxafor-python/luxafor.bash" >> ~/.bashrc
+
+```
+
 ## Known/Possible Issues
 
 ### Linux
@@ -72,7 +82,7 @@ Set the specified LED to the specified color
     luxafor-linux.py color -l 255 -r 255 -g 0 -b 0
 
 #### Hex Color (Linux)
-	
+
     luxafor-linux.py color -x "#F22613"
 
 ### Fade
@@ -85,7 +95,7 @@ Set the specified LED to the specified color
 
 ### Wave
 
-    luxafor-linux.py wave -w 4 -r 0 -g 0 -b 255 -s 20 -t 3 
+    luxafor-linux.py wave -w 4 -r 0 -g 0 -b 255 -s 20 -t 3
 
 ### Pattern
 
