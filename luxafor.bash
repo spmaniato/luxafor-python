@@ -24,5 +24,5 @@ lux ()
 
   esac
 
-  sudo ${LUXAFOR_DIR}/luxafor-linux.py color ${COLOR_ARGS}
+  ${LUXAFOR_DIR}/luxafor-linux.py color ${COLOR_ARGS}
 }
