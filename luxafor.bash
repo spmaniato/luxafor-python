@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LUXAFOR_DIR="${HOME}/.luxafor-python"
+LUXAFOR_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 lux ()
 {
