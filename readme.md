@@ -32,7 +32,7 @@ Credit to gist by [dave-irvine](https://gist.github.com/dave-irvine/dbec2584e750
 ```bash
 git clone https://github.com/spmaniato/luxafor-python.git ~/.luxafor-python
 echo "source ~/.luxafor-python/luxafor.bash" >> ~/.bashrc
-
+source ~/.bashrc
 ```
 
 ## Known/Possible Issues
