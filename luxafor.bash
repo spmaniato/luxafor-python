@@ -15,6 +15,9 @@ lux ()
     blue)
       COLOR_ARGS="-l 0 -r 0 -g 0 -b 255"
       ;;
+    yellow)
+      COLOR_ARGS="-l 0 -r 255 -g 150 -b 0"
+      ;;
     white)
       COLOR_ARGS="-l 0 -r 255 -g 255 -b 255"
       ;;
